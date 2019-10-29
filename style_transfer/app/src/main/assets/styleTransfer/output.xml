@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fake.exe" errors="0" failures="0" tests="22" hostname="tbd" time="0.859655" timestamp="2019-10-15T18:54:47Z">
+    <testcase classname="fake.exe.global" name="We should be able to load a model and the associated JSON Metadata using the SenseiClient" time="0.017566"/>
+    <testcase classname="fake.exe.global" name="We should be able to run inference on the model and get an output using Mobilenet" time="0.183564"/>
+    <testcase classname="fake.exe.global" name="Negative Test Cases for Mobilenet Models/Metadata file missing" time="0.004478"/>
+    <testcase classname="fake.exe.global" name="Negative Test Cases for Mobilenet Models/No targets in metadata" time="0.00326"/>
+    <testcase classname="fake.exe.global" name="Negative Test Cases for Mobilenet Models/Model file missing" time="0.005708"/>
+    <testcase classname="fake.exe.global" name="Negative Test Cases for Mobilenet Models/Wrong name of Model file" time="0.003972"/>
+    <testcase classname="fake.exe.global" name="Negative Test Cases for Mobilenet Models/Invalid manifest.json: Wrong name of components" time="0.002534"/>
+    <testcase classname="fake.exe.global" name="Negative Test Cases for Mobilenet Models/Invalid manifest.json: Wrong input name" time="0.004267"/>
+    <testcase classname="fake.exe.global" name="Negative Test Cases for Mobilenet Models/Invalid manifest.json: Wrong value of field name" time="0.000665"/>
+    <testcase classname="fake.exe.global" name="Negative Test Cases for Mobilenet Models/Corrupt manifest.json" time="0.002452"/>
+    <testcase classname="fake.exe.global" name="Negative Test Cases for Mobilenet Models/Model Path Empty" time="0.000042"/>
+    <testcase classname="fake.exe.global" name="Multithreading Test:All Devices" time="0.239981"/>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+</testsuites>
