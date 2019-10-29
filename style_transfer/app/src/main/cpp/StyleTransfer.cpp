@@ -113,6 +113,8 @@ std::string StyleTransfer::getRenderedStyle(int styleChosen) {
             const cv::Scalar maxVal = cv::Scalar(255, 255, 255);
             cv::multiply(tensorMat, maxVal, outputImage);
             outputImage.convertTo(outputImage, CV_8UC3);
+            cv::cvtColor(outputImage, outputImage, cv::COLOR_BGR2RGB);
+
             std::string outputString = APP_PATH + "/output.jpg";
             cv::imwrite(outputString, outputImage);
 
@@ -224,7 +226,6 @@ cv::Mat StyleTransfer::preProcessImage(cv::Mat input) {
     cv::Size imageSize(384, 384);
     cv::resize(input, resizedImage, imageSize);
     // I don't want to lose the alpha channel of the image coming in
-    cv::cvtColor(resizedImage, resizedImage, cv::COLOR_BGR2RGB);
 
     std::string outputString = APP_PATH + "/test_input.jpg";
     cv::imwrite(outputString, resizedImage);

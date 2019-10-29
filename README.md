@@ -15,7 +15,5 @@ For more information on why there are only three styles on this demo, please
 read this:
 [https://www.popularmechanics.com/adventure/outdoors/a22536/national-parks-posters/]
 
-All other copyrights are held by their respective holders.  Code authored by 
-Joe Bowser is Copyright 2019 Adobe Inc.
 
 
