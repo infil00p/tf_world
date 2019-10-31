@@ -15,5 +15,5 @@ For more information on why there are only three styles on this demo, please
 read this:
 [https://www.popularmechanics.com/adventure/outdoors/a22536/national-parks-posters/]
 
-
+All other code and headers are subject to their licences and copyright holders.
 
